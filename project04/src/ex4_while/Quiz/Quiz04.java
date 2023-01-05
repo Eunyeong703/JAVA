@@ -15,10 +15,10 @@ public class Quiz04 {
 		int sum = 0;
 		
 		while(num!=0) {
-			// sum = sum + (num%10);
+			// sum = sum + (num%10);124 0
 			sum += num%10;
 			// num = num / 10;
-			num /= 10;
+			num /= 10; 
 			// 자릿수 카운트
 			cnt++;
 		}
