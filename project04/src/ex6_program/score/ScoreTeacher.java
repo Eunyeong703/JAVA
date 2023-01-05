@@ -34,21 +34,38 @@ public class ScoreTeacher {
 				System.out.print("이름 입력 : ");
 				name = sc.next();
 				
+				// 경고문에 사용할 변수
+				boolean warning = false;
+				
 				// 0~100 점 사이만 입력되도록 구현
 				
 				do {
-				System.out.print("국어 점수 입력 :");
-				kor = sc.nextInt();
+					if(warning) {
+						System.out.println("국어 점수는 0~100점 사이입니다.");
+					}
+					System.out.print("국어 점수 입력 :");
+					kor = sc.nextInt();
+					warning = true;
 				} while(kor>100 || kor <0);
 				
+				warning = false;
 				do {
-				System.out.print("영어 점수 입력 : ");
-				eng = sc.nextInt();
+					if(warning) {
+						System.out.println("영어 점수는 0~100점 사이입니다.");
+					}
+					System.out.print("영어 점수 입력 : ");
+					eng = sc.nextInt();
+					warning = true;
 				} while(eng>100 || eng <0);
 				
+				warning = false;
 				do {
-				System.out.print("수학 점수 입력 : ");
-				math = sc.nextInt();
+					if(warning) {
+						System.out.println("수학 점수는 0~100점 사이입니다.");
+					}
+					System.out.print("수학 점수 입력 : ");
+					math = sc.nextInt();
+					warning = true;
 				} while(math>100 || math <100);
 				
 				break;
