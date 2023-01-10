@@ -6,10 +6,9 @@ public class ContinueExam01 {
 		
 		for(int i=0; i<10; i++) {
 			if(i==5) {
-				continue;
+				continue; // 아래로 가지 않고 반복문의 위로 올라간다
 			}
 			System.out.println(i);
+		}
 	}
-	}
-
 }
