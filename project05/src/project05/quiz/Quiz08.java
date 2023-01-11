@@ -17,7 +17,7 @@ public class Quiz08 {
 				if(score[j] > score[i]) {
 					rank[i]++; // 각 점수를 비교한 뒤 같은 1 rank에서 1, 2등으로 분리
 				}
-				if(score[j] < score[i]) {
+				else if(score[j] < score[i]) {
 					rank[j]++;
 				}
 			}
