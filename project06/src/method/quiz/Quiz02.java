@@ -27,7 +27,7 @@ public class Quiz02 {
 			case 1:
 				// 성적 입력
 				System.out.println("### 성적 입력 ###");
-				// 인덱스 번호가 저장공간 위치 보다 많아지만 에러가 발생하는데, 그걸 방지하기 위해서 if문 생성
+				// 인덱스 번호가 저장공간 위치 보다 많아지면 에러가 발생하는데, 그걸 방지하기 위해서 if문 생성
 				if(idx == scoreNum) {
 					System.out.println("더 이상 저장할 공간이 없습니다.");
 				} else {
