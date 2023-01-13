@@ -1,4 +1,4 @@
-package quiz04;
+package exam05;
 
 public class User2 extends User1{
 	private String name;

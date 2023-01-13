@@ -6,7 +6,7 @@ public class UserMain {
 	public static void main(String[] args) {
 		UserService us = new UserService();
 		int userNum = us.userNum();
-﻿
+		
 		// 상속
 		// 부모 클래스(상위 객체) : 클래스에 있는 모든 것을 자식 클래스가 사용할 수 있게 해주는 클래스
 		// 자식 클래스(하위 객체) : 부모 클래스가 사용할 수 있게 해주는 내용과 자신이 가진 내용을 사용하는 클래스
