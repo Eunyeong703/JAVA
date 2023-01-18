@@ -1,4 +1,4 @@
-package ex1_list;
+package ex1_array;
 
 public class Car {
 	private int tire;

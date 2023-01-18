@@ -1,4 +1,4 @@
-package ex1_list;
+package ex1_array;
 
 import java.util.ArrayList;
 import java.util.List;

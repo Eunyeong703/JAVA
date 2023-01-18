@@ -76,7 +76,7 @@ public class ScoreService implements ScoreServiceImpl{
 		System.out.print("전체 삭제를 하시겠습니까? (Y/N)");
 		String confirm = sc.next();
 		
-		if(confirm.equals("Y") || confirm.endsWith("y")) {
+		if(confirm.equals("Y") || confirm.equals("y")) {
 			scoreList.clear();
 		} else {
 			System.out.println("삭제 취소합니다.");
